@@ -1,0 +1,447 @@
+2018-09-28 21:28:41 - root - INFO: - {'https': 'https://211.159.171.58:80'}
+2018-09-28 21:29:03 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=1 (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001D5444C7CC0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',)))
+2018-09-28 21:30:27 - root - INFO: - {'https': 'https://211.159.171.58:80'}
+2018-09-28 21:30:33 - root - ERROR: - Try: 1 | Error : unhashable type: 'list'
+2018-09-28 21:31:47 - root - INFO: - {'https': 'https://219.157.144.246:8118'}
+2018-09-28 21:31:48 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=1 (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response',)))
+2018-09-28 21:32:16 - root - INFO: - {'https': 'https://219.157.144.246:8118'}
+2018-09-28 21:32:19 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=1 (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response',)))
+2018-09-28 21:32:19 - root - INFO: - {'http': 'http://121.31.194.16:8123'}
+2018-09-28 21:32:23 - root - ERROR: - Try: 2 | Error : unhashable type: 'list'
+2018-09-28 21:32:23 - root - INFO: - {'https': 'https://59.172.27.6:53281'}
+2018-09-28 21:32:33 - root - ERROR: - Try: 3 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=1 (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000017101205438>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)))
+2018-09-28 21:32:33 - root - INFO: - {'http': 'http://106.75.225.83:808'}
+2018-09-28 21:32:39 - root - ERROR: - Try: 4 | Error : unhashable type: 'list'
+2018-09-28 21:32:39 - root - INFO: - {'http': 'http://118.190.95.35:9001'}
+2018-09-28 21:32:45 - root - ERROR: - Try: 5 | Error : unhashable type: 'list'
+2018-09-28 21:32:45 - root - INFO: - {'http': 'http://118.190.95.43:9001'}
+2018-09-28 21:32:53 - root - ERROR: - Try: 6 | Error : unhashable type: 'list'
+2018-09-28 21:33:19 - root - INFO: - {'https': 'https://219.157.144.246:8118'}
+2018-09-28 21:33:43 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=1 (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response',)))
+2018-09-28 21:33:43 - root - INFO: - {'http': 'http://121.31.194.16:8123'}
+2018-09-28 21:33:48 - root - ERROR: - Try: 2 | Error : unhashable type: 'list'
+2018-09-28 21:33:48 - root - INFO: - {'https': 'https://59.172.27.6:53281'}
+2018-09-28 21:33:52 - root - ERROR: - Try: 3 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=1 (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000288E3E25BA8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)))
+2018-09-28 21:33:52 - root - INFO: - {'http': 'http://106.75.225.83:808'}
+2018-09-28 21:33:58 - root - ERROR: - Try: 4 | Error : unhashable type: 'list'
+2018-09-28 21:33:58 - root - INFO: - {'http': 'http://118.190.95.35:9001'}
+2018-09-28 21:34:05 - root - ERROR: - Try: 5 | Error : unhashable type: 'list'
+2018-09-28 21:34:05 - root - INFO: - {'http': 'http://118.190.95.43:9001'}
+2018-09-28 21:34:13 - root - ERROR: - Try: 6 | Error : unhashable type: 'list'
+2018-09-28 21:34:23 - root - INFO: - {'https': 'https://219.157.144.246:8118'}
+2018-09-28 21:34:40 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=1 (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response',)))
+2018-09-28 21:34:40 - root - INFO: - {'http': 'http://121.31.194.16:8123'}
+2018-09-28 21:34:45 - root - ERROR: - Try: 2 | Error : unhashable type: 'list'
+2018-09-28 21:34:45 - root - INFO: - {'https': 'https://59.172.27.6:53281'}
+2018-09-28 21:34:51 - root - ERROR: - Try: 3 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=1 (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001CF349F5860>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)))
+2018-09-28 21:34:51 - root - INFO: - {'http': 'http://106.75.225.83:808'}
+2018-09-28 21:34:57 - root - ERROR: - Try: 4 | Error : unhashable type: 'list'
+2018-09-28 21:34:57 - root - INFO: - {'http': 'http://118.190.95.35:9001'}
+2018-09-28 21:35:04 - root - ERROR: - Try: 5 | Error : unhashable type: 'list'
+2018-09-28 21:35:04 - root - INFO: - {'http': 'http://118.190.95.43:9001'}
+2018-09-28 21:35:12 - root - ERROR: - Try: 6 | Error : unhashable type: 'list'
+2018-09-28 21:35:43 - root - INFO: - {'https': 'https://219.157.144.246:8118'}
+2018-09-28 21:35:45 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=1 (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response',)))
+2018-09-28 21:35:45 - root - INFO: - {'http': 'http://121.31.194.16:8123'}
+2018-09-28 21:35:50 - root - ERROR: - Try: 2 | Error : unhashable type: 'list'
+2018-09-28 21:35:50 - root - INFO: - {'https': 'https://59.172.27.6:53281'}
+2018-09-28 21:35:54 - root - ERROR: - Try: 3 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=1 (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000002BF92855860>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)))
+2018-09-28 21:35:54 - root - INFO: - {'http': 'http://106.75.225.83:808'}
+2018-09-28 21:36:00 - root - ERROR: - Try: 4 | Error : unhashable type: 'list'
+2018-09-28 21:36:00 - root - INFO: - {'http': 'http://118.190.95.35:9001'}
+2018-09-28 21:36:07 - root - ERROR: - Try: 5 | Error : unhashable type: 'list'
+2018-09-28 21:36:07 - root - INFO: - {'http': 'http://118.190.95.43:9001'}
+2018-09-28 21:36:15 - root - ERROR: - Try: 6 | Error : unhashable type: 'list'
+2018-09-28 21:36:25 - root - INFO: - {'https': 'https://219.157.144.246:8118'}
+2018-09-28 21:36:26 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=1 (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response',)))
+2018-09-28 21:36:26 - root - INFO: - {'http': 'http://121.31.194.16:8123'}
+2018-09-28 21:36:31 - root - ERROR: - Try: 2 | Error : name 'a' is not defined
+2018-09-28 21:36:31 - root - INFO: - {'https': 'https://59.172.27.6:53281'}
+2018-09-28 21:36:47 - root - ERROR: - Try: 3 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=1 (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000014255080E80>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',)))
+2018-09-28 21:36:47 - root - INFO: - {'http': 'http://106.75.225.83:808'}
+2018-09-28 21:36:53 - root - ERROR: - Try: 4 | Error : name 'a' is not defined
+2018-09-28 21:36:53 - root - INFO: - {'http': 'http://118.190.95.35:9001'}
+2018-09-28 21:37:00 - root - INFO: - {'https': 'https://219.157.144.246:8118'}
+2018-09-28 21:37:01 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=1 (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response',)))
+2018-09-28 21:37:01 - root - INFO: - {'http': 'http://121.31.194.16:8123'}
+2018-09-28 21:37:05 - root - ERROR: - Try: 2 | Error : name 'a' is not defined
+2018-09-28 21:37:05 - root - INFO: - {'https': 'https://59.172.27.6:53281'}
+2018-09-28 21:37:09 - root - ERROR: - Try: 3 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=1 (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000002805BD90E80>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)))
+2018-09-28 21:37:09 - root - INFO: - {'http': 'http://106.75.225.83:808'}
+2018-09-28 21:37:15 - root - ERROR: - Try: 4 | Error : name 'a' is not defined
+2018-09-28 21:37:15 - root - INFO: - {'http': 'http://118.190.95.35:9001'}
+2018-09-28 21:37:23 - root - ERROR: - Try: 5 | Error : name 'a' is not defined
+2018-09-28 21:37:23 - root - INFO: - {'http': 'http://118.190.95.43:9001'}
+2018-09-28 21:37:31 - root - ERROR: - Try: 6 | Error : name 'a' is not defined
+2018-09-28 21:37:44 - root - INFO: - {'https': 'https://219.157.144.246:8118'}
+2018-09-28 21:37:45 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=1 (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response',)))
+2018-09-28 21:37:45 - root - INFO: - {'http': 'http://121.31.194.16:8123'}
+2018-09-28 21:37:50 - root - ERROR: - Try: 2 | Error : unhashable type: 'list'
+2018-09-28 21:37:50 - root - INFO: - {'https': 'https://59.172.27.6:53281'}
+2018-09-28 21:37:59 - root - ERROR: - Try: 3 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=1 (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000018ED4D47128>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)))
+2018-09-28 21:37:59 - root - INFO: - {'http': 'http://106.75.225.83:808'}
+2018-09-28 21:38:05 - root - ERROR: - Try: 4 | Error : unhashable type: 'list'
+2018-09-28 21:38:05 - root - INFO: - {'http': 'http://118.190.95.35:9001'}
+2018-09-28 21:38:12 - root - ERROR: - Try: 5 | Error : unhashable type: 'list'
+2018-09-28 21:38:12 - root - INFO: - {'http': 'http://118.190.95.43:9001'}
+2018-09-28 21:38:20 - root - ERROR: - Try: 6 | Error : unhashable type: 'list'
+2018-09-28 21:38:50 - root - INFO: - {'https': 'https://219.157.144.246:8118'}
+2018-09-28 21:38:51 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=1 (Caused by ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response',)))
+2018-09-28 21:38:51 - root - INFO: - {'http': 'http://121.31.194.16:8123'}
+2018-09-28 21:38:55 - root - ERROR: - Try: 2 | Error : unhashable type: 'list'
+2018-09-28 21:38:55 - root - INFO: - {'https': 'https://59.172.27.6:53281'}
+2018-09-28 21:39:02 - root - ERROR: - Try: 3 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=1 (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001F3335D7128>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)))
+2018-09-28 21:39:02 - root - INFO: - {'http': 'http://106.75.225.83:808'}
+2018-09-28 21:39:08 - root - ERROR: - Try: 4 | Error : unhashable type: 'list'
+2018-09-28 21:39:08 - root - INFO: - {'http': 'http://118.190.95.35:9001'}
+2018-09-28 21:39:15 - root - ERROR: - Try: 5 | Error : unhashable type: 'list'
+2018-09-28 21:39:15 - root - INFO: - {'http': 'http://118.190.95.43:9001'}
+2018-09-28 21:39:23 - root - ERROR: - Try: 6 | Error : unhashable type: 'list'
+2018-09-28 21:41:29 - root - INFO: - {'https': 'https://116.62.134.173:9999'}
+2018-09-28 21:41:41 - root - ERROR: - Try: 1 | Error : name 'i' is not defined
+2018-09-28 21:41:41 - root - INFO: - {'http': 'http://222.169.248.4:80'}
+2018-09-28 21:41:45 - root - ERROR: - Try: 2 | Error : name 'i' is not defined
+2018-09-28 21:41:45 - root - INFO: - {'https': 'https://60.169.222.236:8010'}
+2018-09-28 21:41:55 - root - INFO: - {'https': 'https://116.62.134.173:9999'}
+2018-09-28 21:41:59 - root - INFO: - {'https': 'https://116.62.134.173:9999'}
+2018-09-28 21:42:16 - root - ERROR: - Try: 1 | Error : unhashable type: 'list'
+2018-09-28 21:42:16 - root - INFO: - {'http': 'http://222.169.248.4:80'}
+2018-09-28 21:42:20 - root - ERROR: - Try: 2 | Error : unhashable type: 'list'
+2018-09-28 21:42:20 - root - INFO: - {'https': 'https://60.169.222.236:8010'}
+2018-09-28 21:42:44 - root - ERROR: - Try: 3 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=1 (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001E7CC540438>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',)))
+2018-09-28 21:42:44 - root - INFO: - {'https': 'https://106.75.226.36:808'}
+2018-09-28 21:42:48 - root - ERROR: - Try: 4 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=1 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:833)'),))
+2018-09-28 21:42:48 - root - INFO: - {'http': 'http://61.135.217.7:80'}
+2018-09-28 21:45:47 - root - INFO: - {'https': 'https://116.62.134.173:9999'}
+2018-09-28 21:46:00 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=1 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+2018-09-28 21:46:00 - root - INFO: - {'http': 'http://222.169.248.4:80'}
+2018-09-28 21:46:05 - root - ERROR: - Try: 2 | Error : unhashable type: 'list'
+2018-09-28 21:46:05 - root - INFO: - {'https': 'https://60.169.222.236:8010'}
+2018-09-28 21:46:53 - root - INFO: - {'https': 'https://116.62.134.173:9999'}
+2018-09-28 21:47:15 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=1 (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000235569D5B38>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',)))
+2018-09-28 21:47:15 - root - INFO: - {'http': 'http://222.169.248.4:80'}
+2018-09-28 21:47:17 - root - INFO: - Try: 2 | get : ['validates-email-format-of', 'validates_email_format_of']
+2018-09-28 21:48:44 - root - INFO: - {'https': 'https://116.62.134.173:9999'}
+2018-09-28 21:48:51 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=1 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+2018-09-28 21:48:51 - root - INFO: - {'http': 'http://222.169.248.4:80'}
+2018-09-28 21:48:53 - root - INFO: - Try: 2 | get : ['validates-email-format-of', 'validates_email_format_of']
+2018-09-28 21:49:28 - root - INFO: - {'https': 'https://116.62.134.173:9999'}
+2018-09-28 21:49:42 - root - INFO: - Try: 1 | get : ['validates-email-format-of', 'validates_email_format_of']
+2018-09-28 21:50:47 - root - INFO: - {'https': 'https://116.62.134.173:9999'}
+2018-09-28 21:51:07 - root - INFO: - Try: 1 | get : ['validates-email-format-of', 'validates_email_format_of']
+2018-09-28 21:51:07 - root - INFO: - Try: 1 | get : ['kovyrin', 'loops']
+2018-09-28 21:51:07 - root - INFO: - Try: 1 | get : ['w3c-validators', 'w3c_validators']
+2018-09-28 21:51:07 - root - INFO: - Try: 1 | get : ['patrickt', 'yamlkit']
+2018-09-28 21:51:07 - root - INFO: - Try: 1 | get : ['patperry', 'hs-monte-carlo']
+2018-09-28 21:51:07 - root - INFO: - Try: 1 | get : ['HERA-Team', 'aipy']
+2018-09-28 21:51:07 - root - INFO: - Try: 1 | get : ['patperry', 'hs-linear-algebra']
+2018-09-28 21:51:07 - root - INFO: - Try: 1 | get : ['brosner', 'sorl-thumbnail']
+2018-09-28 21:51:07 - root - INFO: - Try: 1 | get : ['alexdunae', 'acts_as_slugable']
+2018-09-28 21:51:07 - root - INFO: - Try: 1 | get : ['adammck', 'fuzz']
+2018-09-28 21:58:51 - root - INFO: - created:2008-12-31
+2018-09-28 21:58:52 - root - INFO: - {'https': 'https://183.159.86.176:18118'}
+2018-09-28 21:58:55 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31 (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000001F45DC1BBE0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)))
+2018-09-28 21:58:55 - root - INFO: - {'http': 'http://106.75.225.83:808'}
+2018-09-28 21:58:58 - root - INFO: - Try: 2 | get : 132
+2018-09-28 21:58:58 - root - INFO: - {'http': 'http://118.190.95.35:9001'}
+2018-09-28 21:59:00 - root - INFO: - Try: 1 | get : ['validates-email-format-of', 'validates_email_format_of']
+2018-09-28 21:59:00 - root - INFO: - Try: 1 | get : ['kovyrin', 'loops']
+2018-09-28 21:59:00 - root - INFO: - Try: 1 | get : ['w3c-validators', 'w3c_validators']
+2018-09-28 21:59:00 - root - INFO: - Try: 1 | get : ['patrickt', 'yamlkit']
+2018-09-28 21:59:00 - root - INFO: - Try: 1 | get : ['patperry', 'hs-monte-carlo']
+2018-09-28 21:59:00 - root - INFO: - Try: 1 | get : ['HERA-Team', 'aipy']
+2018-09-28 21:59:00 - root - INFO: - Try: 1 | get : ['patperry', 'hs-linear-algebra']
+2018-09-28 21:59:00 - root - INFO: - Try: 1 | get : ['brosner', 'sorl-thumbnail']
+2018-09-28 21:59:00 - root - INFO: - Try: 1 | get : ['alexdunae', 'acts_as_slugable']
+2018-09-28 21:59:00 - root - INFO: - Try: 1 | get : ['adammck', 'fuzz']
+2018-09-28 21:59:00 - root - INFO: - {'http': 'http://118.190.95.43:9001'}
+2018-09-28 21:59:02 - root - INFO: - Try: 1 | get : ['aral', 'gaebar-gaed-skeleton']
+2018-09-28 21:59:02 - root - INFO: - Try: 1 | get : ['patperry', 'hs-ieee754']
+2018-09-28 21:59:02 - root - INFO: - Try: 1 | get : ['patperry', 'hs-gsl-random']
+2018-09-28 21:59:02 - root - INFO: - Try: 1 | get : ['elson', 'ubiquity-bbc-iplayer']
+2018-09-28 21:59:02 - root - INFO: - Try: 1 | get : ['gdey', 'google-toolbox-for-mac']
+2018-09-28 21:59:02 - root - INFO: - Try: 1 | get : ['xdotcommer', 'rspec-custom-matchers']
+2018-09-28 21:59:02 - root - INFO: - Try: 1 | get : ['wharris', 'lock']
+2018-09-28 21:59:02 - root - INFO: - Try: 1 | get : ['dwclifton', 'tracmarkdownmacro']
+2018-09-28 21:59:02 - root - INFO: - Try: 1 | get : ['jystewart', 'wordpress-post-banners']
+2018-09-28 21:59:02 - root - INFO: - Try: 1 | get : ['alexdunae', 'tumblr-php']
+2018-09-28 21:59:02 - root - INFO: - {'http': 'http://61.135.217.7:80'}
+2018-09-28 21:59:04 - root - INFO: - Try: 1 | get : ['conorh', 'jspeedstreamer']
+2018-09-28 21:59:04 - root - INFO: - Try: 1 | get : ['gbarr', 'perl-nagios-plugin-beanstalk']
+2018-09-28 21:59:04 - root - INFO: - Try: 1 | get : ['alexdunae', 'suggests_id']
+2018-09-28 21:59:04 - root - INFO: - Try: 1 | get : ['peej', 'the-to.uri.st-spider']
+2018-09-28 21:59:04 - root - INFO: - Try: 1 | get : ['evanwalsh', 'stil']
+2018-09-28 21:59:04 - root - INFO: - Try: 1 | get : ['wyhaines', 'ruby-gnome2']
+2018-09-28 21:59:04 - root - INFO: - Try: 1 | get : ['akiyan', 'php-checkpad-api']
+2018-09-28 21:59:04 - root - INFO: - Try: 1 | get : ['joeyschoblaska', 'stone_free']
+2018-09-28 21:59:04 - root - INFO: - Try: 1 | get : ['nothingmuch', 'imago']
+2018-09-28 21:59:04 - root - INFO: - Try: 1 | get : ['arthurk', 'arthurkoziel.com']
+2018-09-28 21:59:04 - root - INFO: - {'https': 'https://106.75.226.36:808'}
+2018-09-28 21:59:05 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=4 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:833)'),))
+2018-09-28 21:59:05 - root - INFO: - {'https': 'https://116.62.134.173:9999'}
+2018-09-28 21:59:42 - root - INFO: - created:2008-12-31
+2018-09-28 21:59:43 - root - INFO: - {'https': 'https://183.159.86.176:18118'}
+2018-09-28 21:59:46 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31 (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000002413AD9BC88>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)))
+2018-09-28 21:59:46 - root - INFO: - {'http': 'http://106.75.225.83:808'}
+2018-09-28 22:00:01 - root - INFO: - created:2008-12-31
+2018-09-28 22:00:02 - root - INFO: - {'https': 'https://183.159.86.176:18118'}
+2018-09-28 22:00:05 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31 (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000002222A5CBC88>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)))
+2018-09-28 22:00:05 - root - INFO: - {'http': 'http://106.75.225.83:808'}
+2018-09-28 22:00:07 - root - INFO: - Try: 2 | get : 132
+2018-09-28 22:00:07 - root - INFO: - {'http': 'http://118.190.95.35:9001'}
+2018-09-28 22:00:09 - root - INFO: - Try: 1 | get : ['validates-email-format-of', 'validates_email_format_of']
+2018-09-28 22:00:09 - root - INFO: - Try: 1 | get : ['kovyrin', 'loops']
+2018-09-28 22:00:09 - root - INFO: - Try: 1 | get : ['w3c-validators', 'w3c_validators']
+2018-09-28 22:00:09 - root - INFO: - Try: 1 | get : ['patrickt', 'yamlkit']
+2018-09-28 22:00:09 - root - INFO: - Try: 1 | get : ['patperry', 'hs-monte-carlo']
+2018-09-28 22:00:09 - root - INFO: - Try: 1 | get : ['HERA-Team', 'aipy']
+2018-09-28 22:00:09 - root - INFO: - Try: 1 | get : ['patperry', 'hs-linear-algebra']
+2018-09-28 22:00:09 - root - INFO: - Try: 1 | get : ['brosner', 'sorl-thumbnail']
+2018-09-28 22:00:09 - root - INFO: - Try: 1 | get : ['alexdunae', 'acts_as_slugable']
+2018-09-28 22:00:09 - root - INFO: - Try: 1 | get : ['adammck', 'fuzz']
+2018-09-28 22:00:20 - root - INFO: - created:2008-12-31
+2018-09-28 22:00:21 - root - INFO: - {'https': 'https://183.159.86.176:18118'}
+2018-09-28 22:00:23 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31 (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000152CFFABC88>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)))
+2018-09-28 22:00:23 - root - INFO: - {'http': 'http://106.75.225.83:808'}
+2018-09-28 22:00:26 - root - INFO: - Try: 2 | get : 132
+2018-09-28 22:00:26 - root - INFO: - {'http': 'http://118.190.95.35:9001'}
+2018-09-28 22:00:28 - root - INFO: - Try: 1 | get : ['validates-email-format-of', 'validates_email_format_of']
+2018-09-28 22:00:28 - root - INFO: - Try: 1 | get : ['kovyrin', 'loops']
+2018-09-28 22:00:28 - root - INFO: - Try: 1 | get : ['w3c-validators', 'w3c_validators']
+2018-09-28 22:00:28 - root - INFO: - Try: 1 | get : ['patrickt', 'yamlkit']
+2018-09-28 22:00:28 - root - INFO: - Try: 1 | get : ['patperry', 'hs-monte-carlo']
+2018-09-28 22:00:28 - root - INFO: - Try: 1 | get : ['HERA-Team', 'aipy']
+2018-09-28 22:00:28 - root - INFO: - Try: 1 | get : ['patperry', 'hs-linear-algebra']
+2018-09-28 22:00:28 - root - INFO: - Try: 1 | get : ['brosner', 'sorl-thumbnail']
+2018-09-28 22:00:28 - root - INFO: - Try: 1 | get : ['alexdunae', 'acts_as_slugable']
+2018-09-28 22:00:28 - root - INFO: - Try: 1 | get : ['adammck', 'fuzz']
+2018-09-28 22:00:28 - root - INFO: - {'http': 'http://118.190.95.43:9001'}
+2018-09-28 22:00:30 - root - INFO: - Try: 1 | get : ['aral', 'gaebar-gaed-skeleton']
+2018-09-28 22:00:30 - root - INFO: - Try: 1 | get : ['patperry', 'hs-ieee754']
+2018-09-28 22:00:30 - root - INFO: - Try: 1 | get : ['patperry', 'hs-gsl-random']
+2018-09-28 22:00:30 - root - INFO: - Try: 1 | get : ['elson', 'ubiquity-bbc-iplayer']
+2018-09-28 22:00:30 - root - INFO: - Try: 1 | get : ['gdey', 'google-toolbox-for-mac']
+2018-09-28 22:00:30 - root - INFO: - Try: 1 | get : ['xdotcommer', 'rspec-custom-matchers']
+2018-09-28 22:00:30 - root - INFO: - Try: 1 | get : ['wharris', 'lock']
+2018-09-28 22:00:30 - root - INFO: - Try: 1 | get : ['dwclifton', 'tracmarkdownmacro']
+2018-09-28 22:00:30 - root - INFO: - Try: 1 | get : ['jystewart', 'wordpress-post-banners']
+2018-09-28 22:00:30 - root - INFO: - Try: 1 | get : ['alexdunae', 'tumblr-php']
+2018-09-28 22:00:30 - root - INFO: - {'http': 'http://61.135.217.7:80'}
+2018-09-28 22:00:32 - root - INFO: - Try: 1 | get : ['conorh', 'jspeedstreamer']
+2018-09-28 22:00:32 - root - INFO: - Try: 1 | get : ['gbarr', 'perl-nagios-plugin-beanstalk']
+2018-09-28 22:00:32 - root - INFO: - Try: 1 | get : ['alexdunae', 'suggests_id']
+2018-09-28 22:00:32 - root - INFO: - Try: 1 | get : ['peej', 'the-to.uri.st-spider']
+2018-09-28 22:00:32 - root - INFO: - Try: 1 | get : ['evanwalsh', 'stil']
+2018-09-28 22:00:32 - root - INFO: - Try: 1 | get : ['wyhaines', 'ruby-gnome2']
+2018-09-28 22:00:32 - root - INFO: - Try: 1 | get : ['akiyan', 'php-checkpad-api']
+2018-09-28 22:00:32 - root - INFO: - Try: 1 | get : ['joeyschoblaska', 'stone_free']
+2018-09-28 22:00:32 - root - INFO: - Try: 1 | get : ['nothingmuch', 'imago']
+2018-09-28 22:00:32 - root - INFO: - Try: 1 | get : ['arthurk', 'arthurkoziel.com']
+2018-09-28 22:00:32 - root - INFO: - {'https': 'https://106.75.226.36:808'}
+2018-09-28 22:00:33 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=4 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:833)'),))
+2018-09-28 22:00:33 - root - INFO: - {'https': 'https://116.62.134.173:9999'}
+2018-09-28 22:00:47 - root - ERROR: - Try: 2 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=4 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+2018-09-28 22:00:47 - root - INFO: - {'http': 'http://222.169.248.4:80'}
+2018-09-28 22:00:49 - root - INFO: - Try: 3 | get : ['actsasflinn', 'limit_by_scope']
+2018-09-28 22:00:49 - root - INFO: - Try: 3 | get : ['jbester', 'python-util']
+2018-09-28 22:00:49 - root - INFO: - Try: 3 | get : ['vasi', 'nicotine.app']
+2018-09-28 22:00:49 - root - INFO: - Try: 3 | get : ['hdurer', 'fe-fireeagleupdater']
+2018-09-28 22:00:49 - root - INFO: - Try: 3 | get : ['Reilithion', 'gridrover-experiments']
+2018-09-28 22:00:49 - root - INFO: - Try: 3 | get : ['egonw', 'xws-taverna']
+2018-09-28 22:00:49 - root - INFO: - Try: 3 | get : ['larsclausen', 'openwrt-lxde-packages']
+2018-09-28 22:00:49 - root - INFO: - Try: 3 | get : ['jstrait', 'clawhammer']
+2018-09-28 22:00:49 - root - INFO: - Try: 3 | get : ['nanodeath', 'sovereign']
+2018-09-28 22:00:49 - root - INFO: - Try: 3 | get : ['walf443', 'as3-goban']
+2018-09-28 22:00:49 - root - INFO: - {'https': 'https://60.169.222.236:8010'}
+2018-09-28 22:01:11 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=5 (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000152D0FA7198>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',)))
+2018-09-28 22:01:11 - root - INFO: - {'https': 'https://219.157.144.246:8118'}
+2018-09-28 22:01:34 - root - ERROR: - Try: 2 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=5 (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000152CFFB4A90>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',)))
+2018-09-28 22:01:34 - root - INFO: - {'http': 'http://121.31.194.16:8123'}
+2018-09-28 22:01:36 - root - INFO: - Try: 3 | get : ['zostay', 'bot-net']
+2018-09-28 22:01:36 - root - INFO: - Try: 3 | get : ['wharris', 'obfuscated_fizzbuzz']
+2018-09-28 22:01:36 - root - INFO: - Try: 3 | get : ['lukemelia', 'holiday-mailer']
+2018-09-28 22:01:36 - root - INFO: - Try: 3 | get : ['rtyler', 'twitterbot']
+2018-09-28 22:01:36 - root - INFO: - Try: 3 | get : ['davglass', 'yui-capture']
+2018-09-28 22:01:36 - root - INFO: - Try: 3 | get : ['nirvdrum', 'btv_myhd_connector']
+2018-09-28 22:01:36 - root - INFO: - Try: 3 | get : ['lehrblogger', 'twiterra']
+2018-09-28 22:01:36 - root - INFO: - Try: 3 | get : ['benatkin', 'pyglet-stuff']
+2018-09-28 22:01:36 - root - INFO: - Try: 3 | get : ['jpemberthy', 'jpemberthy.github.com']
+2018-09-28 22:01:36 - root - INFO: - Try: 3 | get : ['marciotrindade', 'filtered_column_gist_macro']
+2018-09-28 22:01:36 - root - INFO: - {'https': 'https://59.172.27.6:53281'}
+2018-09-28 22:01:38 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=6 (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000152D1093048>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)))
+2018-09-28 22:01:38 - root - INFO: - {'https': 'https://211.159.171.58:80'}
+2018-09-28 22:01:41 - root - ERROR: - Try: 2 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=6 (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))
+2018-09-28 22:01:41 - root - INFO: - {'https': 'https://182.88.187.125:8123'}
+2018-09-28 22:02:14 - root - ERROR: - Try: 3 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=6 (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 504 Host github.com lookup failed: Host not found',)))
+2018-09-28 22:02:14 - root - INFO: - {'http': 'http://110.72.42.51:8123'}
+2018-09-28 22:02:16 - root - INFO: - Try: 4 | get : ['yagihiro', 'lwr-simple']
+2018-09-28 22:02:16 - root - INFO: - Try: 4 | get : ['patperry', 'permutation']
+2018-09-28 22:02:16 - root - INFO: - Try: 4 | get : ['josephholsten', 'swaplady']
+2018-09-28 22:02:16 - root - INFO: - Try: 4 | get : ['eelco', 'luisterpaal.fm']
+2018-09-28 22:02:16 - root - INFO: - Try: 4 | get : ['postpostmodern', 'jquery-unform']
+2018-09-28 22:02:16 - root - INFO: - Try: 4 | get : ['coliveira', 'cl-geditor']
+2018-09-28 22:02:16 - root - INFO: - Try: 4 | get : ['jonswar', 'perl-chi-driver-memcached']
+2018-09-28 22:02:16 - root - INFO: - Try: 4 | get : ['claes', 'compose-webmail']
+2018-09-28 22:02:16 - root - INFO: - Try: 4 | get : ['bert', 'bert.github.com']
+2018-09-28 22:02:16 - root - INFO: - Try: 4 | get : ['makenai', 'twitd.com']
+2018-09-28 22:02:16 - root - INFO: - {'http': 'http://116.1.11.19:80'}
+2018-09-28 22:02:18 - root - INFO: - Try: 1 | get : ['mcs', 'otr-java-mirror-core']
+2018-09-28 22:02:18 - root - INFO: - Try: 1 | get : ['charsbar', 'sandbox']
+2018-09-28 22:02:18 - root - INFO: - Try: 1 | get : ['mmullis', 'simple']
+2018-09-28 22:02:18 - root - INFO: - Try: 1 | get : ['coliveira', 'xfignew']
+2018-09-28 22:02:18 - root - INFO: - Try: 1 | get : ['rada', 'rentmaster2']
+2018-09-28 22:02:18 - root - INFO: - Try: 1 | get : ['r3v3ng3r', 'r3v3ng3r']
+2018-09-28 22:02:18 - root - INFO: - Try: 1 | get : ['akiyan', 'checkpad-exporter']
+2018-09-28 22:02:18 - root - INFO: - Try: 1 | get : ['web', 'web.github.com']
+2018-09-28 22:02:18 - root - INFO: - Try: 1 | get : ['actsasflinn', 'acts_as_scoped']
+2018-09-28 22:02:18 - root - INFO: - Try: 1 | get : ['moti', 'moti.github.com']
+2018-09-28 22:02:18 - root - INFO: - {'https': 'https://180.118.243.105:808'}
+2018-09-28 22:02:40 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=8 (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000152D1257438>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',)))
+2018-09-28 22:02:40 - root - INFO: - {'https': 'https://61.182.88.133:40087'}
+2018-09-28 22:03:03 - root - ERROR: - Try: 2 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=8 (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000152D1345048>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',)))
+2018-09-28 22:03:03 - root - INFO: - {'http': 'http://110.86.15.46:58945'}
+2018-09-28 22:03:05 - root - INFO: - Try: 3 | get : ['kakos', 'arch-linux-configs']
+2018-09-28 22:03:05 - root - INFO: - Try: 3 | get : ['misinc', 'sample-website']
+2018-09-28 22:03:05 - root - INFO: - Try: 3 | get : ['akiyan', 'ccbbs']
+2018-09-28 22:03:05 - root - INFO: - Try: 3 | get : ['jbhernan', 'test']
+2018-09-28 22:03:05 - root - INFO: - Try: 3 | get : ['jimpick', 'nixos-xen64-nixpkgs']
+2018-09-28 22:03:05 - root - INFO: - Try: 3 | get : ['also', 'routes-spring-webmvc']
+2018-09-28 22:03:05 - root - INFO: - Try: 3 | get : ['rpheath', 'rpheath.github.com']
+2018-09-28 22:03:05 - root - INFO: - Try: 3 | get : ['mcs', 'otr-java-mirror-web']
+2018-09-28 22:03:05 - root - INFO: - Try: 3 | get : ['Lokian', 'acm-website']
+2018-09-28 22:03:05 - root - INFO: - Try: 3 | get : ['badri', 'dot-emacs-dot-d']
+2018-09-28 22:03:05 - root - INFO: - {'http': 'http://42.59.84.87:1133'}
+2018-09-28 22:03:07 - root - INFO: - Try: 1 | get : ['niyue', 'frienda']
+2018-09-28 22:03:07 - root - INFO: - Try: 1 | get : ['takkanm', 'newyearquartz']
+2018-09-28 22:03:07 - root - INFO: - Try: 1 | get : ['droffo', 'mp3-tools']
+2018-09-28 22:03:07 - root - INFO: - Try: 1 | get : ['aral', 'gaebar-functional-tests']
+2018-09-28 22:03:07 - root - INFO: - Try: 1 | get : ['djsnowsill', 'dsa-accreditation']
+2018-09-28 22:03:07 - root - INFO: - Try: 1 | get : ['jimpick', 'nixos-xen64-nixos']
+2018-09-28 22:03:07 - root - INFO: - Try: 1 | get : ['scottdavis', 'hubble-mast-viewer']
+2018-09-28 22:03:07 - root - INFO: - Try: 1 | get : ['web', 'rails.github.com']
+2018-09-28 22:03:07 - root - INFO: - Try: 1 | get : ['loe', 'domain-finder']
+2018-09-28 22:03:07 - root - INFO: - Try: 1 | get : ['grosser', 'concat_rpc']
+2018-09-28 22:03:07 - root - INFO: - {'https': 'https://122.246.50.25:8010'}
+2018-09-28 22:03:29 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=10 (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000152D1426E80>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',)))
+2018-09-28 22:03:29 - root - INFO: - {'https': 'https://121.31.193.35:8123'}
+2018-09-28 22:03:52 - root - ERROR: - Try: 2 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=10 (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000152D10938D0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',)))
+2018-09-28 22:03:52 - root - INFO: - {'http': 'http://110.73.44.169:8123'}
+2018-09-28 22:03:54 - root - INFO: - Try: 3 | get : ['imownbey', 'iownbey.github.com']
+2018-09-28 22:03:54 - root - INFO: - Try: 3 | get : ['VxJasonxV', 'vxjasonxv.github.io']
+2018-09-28 22:03:54 - root - INFO: - Try: 3 | get : ['akiyan', '1linebbsv2']
+2018-09-28 22:03:54 - root - INFO: - Try: 3 | get : ['yanick', 'language-l33t']
+2018-09-28 22:03:54 - root - INFO: - Try: 3 | get : ['bkarst', 'db_optimization_scripts_for_rails']
+2018-09-28 22:03:54 - root - INFO: - Try: 3 | get : ['eklitzke', 'libfk']
+2018-09-28 22:03:54 - root - INFO: - Try: 3 | get : ['nirvdrum', 'bookmarker']
+2018-09-28 22:03:54 - root - INFO: - Try: 3 | get : ['akiyan', 'checkpad-bookmarklet-box']
+2018-09-28 22:03:54 - root - INFO: - Try: 3 | get : ['michaelwinser', 'mwtest']
+2018-09-28 22:03:54 - root - INFO: - Try: 3 | get : ['chip', 'rails_money']
+2018-09-28 22:03:54 - root - INFO: - {'https': 'https://114.247.89.49:8000'}
+2018-09-28 22:04:10 - root - INFO: - Try: 1 | get : ['automatthew', 'stevedore']
+2018-09-28 22:04:10 - root - INFO: - Try: 1 | get : ['jclay06', 'scms']
+2018-09-28 22:04:10 - root - INFO: - Try: 1 | get : ['atomatt', 'couchdb-editing-session']
+2018-09-28 22:04:10 - root - INFO: - Try: 1 | get : ['rodbegbie', 'begbie.com']
+2018-09-28 22:04:10 - root - INFO: - Try: 1 | get : ['victorz', 'rotatetest']
+2018-09-28 22:04:10 - root - INFO: - Try: 1 | get : ['wharsojo', 'wharsojo.github.com']
+2018-09-28 22:04:10 - root - INFO: - Try: 1 | get : ['banterability', 'php-clip']
+2018-09-28 22:04:10 - root - INFO: - Try: 1 | get : ['Gabrielg1976', 'color-music-composer']
+2018-09-28 22:04:10 - root - INFO: - Try: 1 | get : ['cfchou', 'dummy_netlink']
+2018-09-28 22:04:10 - root - INFO: - Try: 1 | get : ['wharris', 'colourwords']
+2018-09-28 22:04:10 - root - INFO: - {'https': 'https://171.38.43.232:8123'}
+2018-09-28 22:04:32 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=12 (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00000152D15F3A90>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',)))
+2018-09-28 22:04:32 - root - INFO: - {'http': 'http://110.73.47.23:8123'}
+2018-09-28 22:04:34 - root - INFO: - Try: 2 | get : ['fujibee', 'iknow-laf']
+2018-09-28 22:04:34 - root - INFO: - Try: 2 | get : ['charlescooke', 'rubycash']
+2018-09-28 22:04:34 - root - INFO: - Try: 2 | get : ['lesnik', 'test']
+2018-09-28 22:04:34 - root - INFO: - Try: 2 | get : ['CSwallow', 't']
+2018-09-28 22:04:34 - root - INFO: - Try: 2 | get : ['dmreiland', 'solutionslog']
+2018-09-28 22:04:34 - root - INFO: - Try: 2 | get : ['robertbrook', 'depositedpapers']
+2018-09-28 22:04:34 - root - INFO: - Try: 2 | get : ['plessl', 'plessl.github.com']
+2018-09-28 22:04:34 - root - INFO: - Try: 2 | get : ['prodigy', 'mdmphp']
+2018-09-28 22:04:34 - root - INFO: - Try: 2 | get : ['viking', 'chickenfooter']
+2018-09-28 22:04:34 - root - INFO: - Try: 2 | get : ['afalkear', 'myweb']
+2018-09-28 22:04:34 - root - INFO: - {'http': 'http://115.46.84.196:8123'}
+2018-09-28 22:04:36 - root - INFO: - Try: 1 | get : ['factormystic', 'background']
+2018-09-28 22:04:36 - root - INFO: - Try: 1 | get : ['also', 'routes-spring-xml']
+2018-09-28 22:04:36 - root - INFO: - Try: 1 | get : ['robertgc', 'z1']
+2018-09-28 22:04:36 - root - INFO: - Try: 1 | get : ['wharris', 'wharris_bin']
+2018-09-28 22:04:36 - root - INFO: - Try: 1 | get : ['cpjolicoeur', 'greenbacks']
+2018-09-28 22:04:36 - root - INFO: - Try: 1 | get : ['josephholsten', 'gpps']
+2018-09-28 22:04:36 - root - INFO: - Try: 1 | get : ['rixrix', 'agnos']
+2018-09-28 22:04:36 - root - INFO: - Try: 1 | get : ['ultramookie', 'dertyn']
+2018-09-28 22:04:36 - root - INFO: - Try: 1 | get : ['JoergWMittag', 'joergwmittag.github.com']
+2018-09-28 22:04:36 - root - INFO: - Try: 1 | get : ['Grayson', 'downloads']
+2018-09-28 22:07:03 - root - INFO: - created:2008-12-31
+2018-09-28 22:07:04 - root - INFO: - {'https': 'https://121.31.192.81:8123'}
+2018-09-28 22:07:07 - root - INFO: - Try: 1 | get : 132
+2018-09-28 22:07:07 - root - INFO: - {'http': 'http://110.86.15.46:58945'}
+2018-09-28 22:07:09 - root - INFO: - Try: 1 | get : ['validates-email-format-of', 'validates_email_format_of']
+2018-09-28 22:07:09 - root - INFO: - Try: 1 | get : ['kovyrin', 'loops']
+2018-09-28 22:07:09 - root - INFO: - Try: 1 | get : ['w3c-validators', 'w3c_validators']
+2018-09-28 22:07:09 - root - INFO: - Try: 1 | get : ['patrickt', 'yamlkit']
+2018-09-28 22:07:09 - root - INFO: - Try: 1 | get : ['patperry', 'hs-monte-carlo']
+2018-09-28 22:07:09 - root - INFO: - Try: 1 | get : ['HERA-Team', 'aipy']
+2018-09-28 22:07:09 - root - INFO: - Try: 1 | get : ['patperry', 'hs-linear-algebra']
+2018-09-28 22:07:09 - root - INFO: - Try: 1 | get : ['brosner', 'sorl-thumbnail']
+2018-09-28 22:07:09 - root - INFO: - Try: 1 | get : ['alexdunae', 'acts_as_slugable']
+2018-09-28 22:07:09 - root - INFO: - Try: 1 | get : ['adammck', 'fuzz']
+2018-09-28 22:07:09 - root - INFO: - {'http': 'http://106.75.225.83:808'}
+2018-09-28 22:07:12 - root - INFO: - Try: 1 | get : ['aral', 'gaebar-gaed-skeleton']
+2018-09-28 22:07:12 - root - INFO: - Try: 1 | get : ['patperry', 'hs-ieee754']
+2018-09-28 22:07:12 - root - INFO: - Try: 1 | get : ['patperry', 'hs-gsl-random']
+2018-09-28 22:07:12 - root - INFO: - Try: 1 | get : ['elson', 'ubiquity-bbc-iplayer']
+2018-09-28 22:07:12 - root - INFO: - Try: 1 | get : ['gdey', 'google-toolbox-for-mac']
+2018-09-28 22:07:12 - root - INFO: - Try: 1 | get : ['xdotcommer', 'rspec-custom-matchers']
+2018-09-28 22:07:12 - root - INFO: - Try: 1 | get : ['wharris', 'lock']
+2018-09-28 22:07:12 - root - INFO: - Try: 1 | get : ['dwclifton', 'tracmarkdownmacro']
+2018-09-28 22:07:12 - root - INFO: - Try: 1 | get : ['jystewart', 'wordpress-post-banners']
+2018-09-28 22:07:12 - root - INFO: - Try: 1 | get : ['alexdunae', 'tumblr-php']
+2018-09-28 22:07:12 - root - INFO: - {'http': 'http://118.190.95.35:9001'}
+2018-09-28 22:07:13 - root - INFO: - Try: 1 | get : ['conorh', 'jspeedstreamer']
+2018-09-28 22:07:13 - root - INFO: - Try: 1 | get : ['gbarr', 'perl-nagios-plugin-beanstalk']
+2018-09-28 22:07:13 - root - INFO: - Try: 1 | get : ['alexdunae', 'suggests_id']
+2018-09-28 22:07:13 - root - INFO: - Try: 1 | get : ['peej', 'the-to.uri.st-spider']
+2018-09-28 22:07:13 - root - INFO: - Try: 1 | get : ['evanwalsh', 'stil']
+2018-09-28 22:07:13 - root - INFO: - Try: 1 | get : ['wyhaines', 'ruby-gnome2']
+2018-09-28 22:07:13 - root - INFO: - Try: 1 | get : ['akiyan', 'php-checkpad-api']
+2018-09-28 22:07:13 - root - INFO: - Try: 1 | get : ['joeyschoblaska', 'stone_free']
+2018-09-28 22:07:13 - root - INFO: - Try: 1 | get : ['nothingmuch', 'imago']
+2018-09-28 22:07:13 - root - INFO: - Try: 1 | get : ['arthurk', 'arthurkoziel.com']
+2018-09-28 22:07:13 - root - INFO: - {'http': 'http://118.190.95.43:9001'}
+2018-09-28 22:07:16 - root - INFO: - Try: 1 | get : ['actsasflinn', 'limit_by_scope']
+2018-09-28 22:07:16 - root - INFO: - Try: 1 | get : ['jbester', 'python-util']
+2018-09-28 22:07:16 - root - INFO: - Try: 1 | get : ['vasi', 'nicotine.app']
+2018-09-28 22:07:16 - root - INFO: - Try: 1 | get : ['hdurer', 'fe-fireeagleupdater']
+2018-09-28 22:07:16 - root - INFO: - Try: 1 | get : ['Reilithion', 'gridrover-experiments']
+2018-09-28 22:07:16 - root - INFO: - Try: 1 | get : ['egonw', 'xws-taverna']
+2018-09-28 22:07:16 - root - INFO: - Try: 1 | get : ['larsclausen', 'openwrt-lxde-packages']
+2018-09-28 22:07:16 - root - INFO: - Try: 1 | get : ['jstrait', 'clawhammer']
+2018-09-28 22:07:16 - root - INFO: - Try: 1 | get : ['nanodeath', 'sovereign']
+2018-09-28 22:07:16 - root - INFO: - Try: 1 | get : ['walf443', 'as3-goban']
+2018-09-28 22:07:16 - root - INFO: - {'https': 'https://106.75.226.36:808'}
+2018-09-28 22:07:17 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=5 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:833)'),))
+2018-09-28 22:07:17 - root - INFO: - {'http': 'http://61.135.217.7:80'}
+2018-09-28 22:07:19 - root - INFO: - Try: 2 | get : ['zostay', 'bot-net']
+2018-09-28 22:07:19 - root - INFO: - Try: 2 | get : ['wharris', 'obfuscated_fizzbuzz']
+2018-09-28 22:07:19 - root - INFO: - Try: 2 | get : ['lukemelia', 'holiday-mailer']
+2018-09-28 22:07:19 - root - INFO: - Try: 2 | get : ['rtyler', 'twitterbot']
+2018-09-28 22:07:19 - root - INFO: - Try: 2 | get : ['davglass', 'yui-capture']
+2018-09-28 22:07:19 - root - INFO: - Try: 2 | get : ['nirvdrum', 'btv_myhd_connector']
+2018-09-28 22:07:19 - root - INFO: - Try: 2 | get : ['lehrblogger', 'twiterra']
+2018-09-28 22:07:19 - root - INFO: - Try: 2 | get : ['benatkin', 'pyglet-stuff']
+2018-09-28 22:07:19 - root - INFO: - Try: 2 | get : ['jpemberthy', 'jpemberthy.github.com']
+2018-09-28 22:07:19 - root - INFO: - Try: 2 | get : ['marciotrindade', 'filtered_column_gist_macro']
+2018-09-28 22:07:19 - root - INFO: - {'http': 'http://110.73.10.206:8123'}
+2018-09-28 22:07:21 - root - INFO: - Try: 1 | get : ['yagihiro', 'lwr-simple']
+2018-09-28 22:07:21 - root - INFO: - Try: 1 | get : ['patperry', 'permutation']
+2018-09-28 22:07:21 - root - INFO: - Try: 1 | get : ['josephholsten', 'swaplady']
+2018-09-28 22:07:21 - root - INFO: - Try: 1 | get : ['eelco', 'luisterpaal.fm']
+2018-09-28 22:07:21 - root - INFO: - Try: 1 | get : ['postpostmodern', 'jquery-unform']
+2018-09-28 22:07:21 - root - INFO: - Try: 1 | get : ['coliveira', 'cl-geditor']
+2018-09-28 22:07:21 - root - INFO: - Try: 1 | get : ['jonswar', 'perl-chi-driver-memcached']
+2018-09-28 22:07:21 - root - INFO: - Try: 1 | get : ['claes', 'compose-webmail']
+2018-09-28 22:07:21 - root - INFO: - Try: 1 | get : ['bert', 'bert.github.com']
+2018-09-28 22:07:21 - root - INFO: - Try: 1 | get : ['makenai', 'twitd.com']
+2018-09-28 22:07:21 - root - INFO: - {'https': 'https://183.159.86.176:18118'}
+2018-09-28 22:07:23 - root - ERROR: - Try: 1 | Error : HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /search?type=repository&q=created%3A2008-12-31&p=7 (Caused by ProxyError('Cannot connect to proxy.', NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0000020502F2B0B8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)))
+2018-09-28 22:07:23 - root - INFO: - {'https': 'https://116.62.134.173:9999'}

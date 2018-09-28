@@ -1,0 +1,75 @@
+from datetime import date
+from bs4 import BeautifulSoup
+import Resp
+import time
+import json
+from Logger import logger
+
+
+_SEARCH_URL = 'https://github.com/search'
+
+
+def get_daily_reponum(created_at):
+    search_condition = dict()
+    search_condition['type'] = 'repository'
+    search_condition['q'] = 'created:' + created_at
+    logger.info(search_condition['q'])
+    num = None
+    max_try = 0
+    while max_try <= 5:
+        max_try += 1
+        try:
+            resp = Resp.get_response(_SEARCH_URL, param=search_condition)
+            soup = BeautifulSoup(resp.text, 'lxml')
+            result_str = soup.find_all('h3')[1].string.strip('\n repository results').replace(',', '')
+            num = int(result_str)
+            logger.info("Try: %d | get : %s" % (max_try, result_str))
+            break
+        except Exception as e:
+            time.sleep(max_try)
+            logger.error("Try: %d | Error : %s" % (max_try, str(e)))
+    return num
+
+
+def daily_page_parse(created_at, page=1):
+    result_dict = dict()
+    search_condition = dict()
+    search_condition['type'] = 'repository'
+    search_condition['q'] = 'created:' + created_at
+    search_condition['p'] = page
+    max_try = 0
+    while max_try <= 5:
+        max_try += 1
+        try:
+            resp = Resp.get_response(_SEARCH_URL, param=search_condition)
+            soup = BeautifulSoup(resp.text, 'lxml')
+            repo_list = soup.find('ul', 'repo-list').contents
+            for i in range(1, len(repo_list), 2):
+                repo_item = repo_list[i].find('h3').a
+                repo_json = repo_item['data-hydro-click']
+                repo_dict = json.loads(repo_json)
+                repo_url = repo_dict['payload']['result']['url']
+                repo_title = repo_item.string
+                repo_titles = repo_title.split('/')
+                repo_owner = repo_titles[0]
+                repo_name = repo_titles[1]
+                repo = dict(name=repo_name, owner=repo_owner, path=repo_url)
+                result_dict[repo_title] = repo
+                logger.info("Try: %d | get : %s" % (max_try, repo_titles))
+            break
+        except Exception as e:
+            time.sleep(max_try)
+            logger.error("Try: %d | Error : %s" % (max_try, str(e)))
+    return result_dict
+
+
+if __name__ == '__main__':
+    d = date(2008, 12, 31)
+    d_str = d.isoformat()
+    count = get_daily_reponum(d_str)
+    result = dict()
+    max_page = (count // 10) + 1
+    for page in range(1, max_page):
+        result['page:'+str(page)] = daily_page_parse(d.isoformat(), page)
+    with open('daily_result.json', 'w') as fw:
+        fw.writelines(json.dumps(result, indent=4))
