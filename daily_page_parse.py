@@ -1,25 +1,25 @@
 from datetime import date
 from bs4 import BeautifulSoup
-import Resp
+import get_response
 import time
 import json
-from Logger import logger
+import my_logger
 
 
 _SEARCH_URL = 'https://github.com/search'
+logger = my_logger.get_logger(log_file_name='daily_page_parser.log')
 
 
 def get_daily_reponum(created_at):
     search_condition = dict()
     search_condition['type'] = 'repository'
     search_condition['q'] = 'created:' + created_at
-    logger.info(search_condition['q'])
     num = None
     max_try = 0
     while max_try <= 5:
         max_try += 1
         try:
-            resp = Resp.get_response(_SEARCH_URL, param=search_condition)
+            resp = get_response.get_response(_SEARCH_URL, param=search_condition)
             soup = BeautifulSoup(resp.text, 'lxml')
             result_str = soup.find_all('h3')[1].string.strip('\n repository results').replace(',', '')
             num = int(result_str)
@@ -41,7 +41,7 @@ def daily_page_parse(created_at, page=1):
     while max_try <= 5:
         max_try += 1
         try:
-            resp = Resp.get_response(_SEARCH_URL, param=search_condition)
+            resp = get_response.get_response(_SEARCH_URL, param=search_condition)
             soup = BeautifulSoup(resp.text, 'lxml')
             repo_list = soup.find('ul', 'repo-list').contents
             for i in range(1, len(repo_list), 2):
@@ -63,13 +63,20 @@ def daily_page_parse(created_at, page=1):
     return result_dict
 
 
-if __name__ == '__main__':
-    d = date(2008, 12, 31)
-    d_str = d.isoformat()
+def get_daily_result(d_str):
     count = get_daily_reponum(d_str)
     result = dict()
     max_page = (count // 10) + 1
     for page in range(1, max_page):
-        result['page:'+str(page)] = daily_page_parse(d.isoformat(), page)
-    with open('daily_result.json', 'w') as fw:
+        result['page:' + str(page)] = daily_page_parse(d.isoformat(), page)
+    filename = '%s result.json' % d_str
+    with open(filename, 'w') as fw:
         fw.writelines(json.dumps(result, indent=4))
+    logger.info('%s done' % d_str)
+
+
+if __name__ == '__main__':
+    d = date(2008, 12, 31)
+    for day in range(356):
+        get_daily_result(d.isoformat())
+        d -= d.resolution

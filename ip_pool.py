@@ -112,6 +112,7 @@ class IPProvider(object):
 def formalize(tp):
     return {tp[0]: tp[0] + "://" + tp[1] + ":" + tp[2]}
 
+
 if __name__ == "__main__":
     ipp = IPProvider(5)
     ip = IPProvider(5)
