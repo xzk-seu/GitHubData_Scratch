@@ -23,7 +23,7 @@ def get_daily_reponum(created_at):
             soup = BeautifulSoup(resp.text, 'lxml')
             result_str = soup.find_all('h3')[1].string.strip('\n repository results').replace(',', '')
             num = int(result_str)
-            logger.info("Try: %d | get : %s" % (max_try, result_str))
+            logger.info("Try: %d | Date: %s | get : %s" % (max_try, created_at, result_str))
             break
         except Exception as e:
             time.sleep(max_try)
@@ -55,7 +55,7 @@ def daily_page_parse(created_at, page=1):
                 repo_name = repo_titles[1]
                 repo = dict(name=repo_name, owner=repo_owner, path=repo_url)
                 result_dict[repo_title] = repo
-                logger.info("Try: %d | get : %s" % (max_try, repo_titles))
+                logger.info("Try: %d | Date: %s | get : %s" % (max_try, created_at, repo_titles))
             break
         except Exception as e:
             time.sleep(max_try)
