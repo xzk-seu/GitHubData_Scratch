@@ -27,7 +27,7 @@ def get_daily_reponum(created_at):
             break
         except Exception as e:
             time.sleep(max_try)
-            logger.error("Try: %d | Error : %s" % (max_try, str(e)))
+            logger.error("Try: %d | Date: %s | Error : %s" % (max_try, created_at, str(e)))
     return num
 
 
