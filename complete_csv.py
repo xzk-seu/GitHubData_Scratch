@@ -1,4 +1,5 @@
 import csv
+import os
 import daily_page_parse
 from multiprocessing import Pool
 import my_logger
@@ -24,7 +25,7 @@ def get_miss_list(content):
     return result_miss_list
 
 
-def complete_csv(csv_path, content, key, value, complement):
+def complement_write(csv_path, content, key, value, complement):
     for k, v in complement.items():
         for i in content:
             if i[key] == k:
@@ -37,32 +38,44 @@ def complete_csv(csv_path, content, key, value, complement):
         csv_write.writerows(content)
 
 
-if __name__ == '__main__':
-    name = input('csv name:')
-    path = '%s/%s.%s' % ('Statistic', name, 'csv')
+def year_csv_complete(year, parallel):
+    path = '%s/%s.%s' % ('Statistic', year, 'csv')
     content_dict = get_csv_content(path)
     miss_list = get_miss_list(content_dict)
     logger.info('miss list len: %d' % len(miss_list))
     pool = Pool()
     result_list = list()
-    print('The size of miss list is: %d' % len(miss_list))
-    handle = input('How many miss you want handle?(<%d)' % len(miss_list))
-    handle_num = int(handle)
-    for m in miss_list[0:handle_num]:
+    for m in miss_list[0:parallel]:
         logger.info('miss list item: %s' % m)
         res = pool.apply_async(daily_page_parse.get_daily_reponum, args=(m,))
         result_list.append([m, res])
     pool.close()
     pool.join()
-
     complement_dict = dict()
     for pair in result_list:
         num = pair[1].get()
         if num and num != '':
             complement_dict[pair[0]] = num
     logger.info('complement list len: %d' % len(complement_dict))
+    complement_write(path, content_dict, 'date', 'count', complement_dict)
+    return len(miss_list)
 
-    complete_csv(path, content_dict, 'date', 'count', complement_dict)
+
+if __name__ == '__main__':
+    year_in = input('year:')
+    while 1:
+        if not year_csv_complete(year_in, os.cpu_count()):
+            break
+
+
+
+
+    # print('The size of miss list is: %d' % len(miss_list))
+    # handle = input('How many miss you want handle?(<%d)' % len(miss_list))
+    # handle_num = int(handle)
+
+
+
 
 
 
