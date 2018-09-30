@@ -21,10 +21,15 @@ def stat_by_month(begin_day, end_day):
 
 
 if __name__ == '__main__':
+    print('input the end day!')
     year = input('year:')
+    month = input('month:')
+    day = input('day:')
+    day = int(day)
+    month = int(month)
     year = int(year)
-    begin = date(year, 1, 1)
-    end = date(year, 12, 31)
+    begin = date(year, month, 1)
+    end = date(year, month, day)
     result = stat_by_month(begin, end)
     result_write.write_csv('%d.csv' % year, result_type=result_write.STATISTIC
                            , header=['date', 'count'], body_list=result)
