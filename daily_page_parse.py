@@ -26,9 +26,9 @@ def get_daily_reponum(created_at):
             logger.info("Try: %d | Date: %s | get : %s" % (max_try, created_at, result_str))
             break
         except ValueError:
-            # "We couldn’t find any repositories matching 'created:2001-03-01'"
+            # "We couldn’t find any repositories matching 'created:xxxx-xx-xx'"
             logger.error("Try: %d | Date: %s | Error : %s" % (max_try, created_at, result_str))
-            break
+            return 0
         except Exception as e:
             time.sleep(max_try)
             logger.error("Try: %d | Date: %s | Error : %s" % (max_try, created_at, str(e)))
