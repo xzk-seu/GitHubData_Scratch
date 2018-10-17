@@ -1,6 +1,6 @@
 import csv
 import os
-import daily_page_parse
+import search_page_parse
 from multiprocessing import Pool
 import my_logger
 
@@ -47,7 +47,7 @@ def year_csv_complete(year, parallel):
     result_list = list()
     for m in miss_list[0:parallel]:
         logger.info('miss list item: %s' % m)
-        res = pool.apply_async(daily_page_parse.get_daily_reponum, args=(m,))
+        res = pool.apply_async(search_page_parse.get_daily_reponum, args=(m,))
         result_list.append([m, res])
     pool.close()
     pool.join()

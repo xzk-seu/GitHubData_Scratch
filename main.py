@@ -3,7 +3,7 @@ from multiprocessing import Pool
 import time
 import json
 import get_response
-import daily_page_parse
+import search_page_parse
 import result_write
 
 
@@ -18,7 +18,7 @@ if __name__ == '__main__':
     count = 365
     while count:
         d_str = d.isoformat()
-        number_of_repo = p.apply_async(daily_page_parse.get_daily_reponum, args=(d_str,)).get()
+        number_of_repo = p.apply_async(search_page_parse.get_daily_reponum, args=(d_str,)).get()
         result_write.write_csv('2008.csv', result_type='Statistic', header=['date', 'count'], body_list=[[d_str, number_of_repo]])
         # result_dict[d_str] = number_of_repo
         d -= d.resolution

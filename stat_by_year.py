@@ -1,6 +1,6 @@
 from datetime import date
 from multiprocessing import Pool
-import daily_page_parse
+import search_page_parse
 import result_write
 
 
@@ -10,7 +10,7 @@ def stat_by_month(begin_day, end_day):
     result_list = list()
     for d in range((end_day-begin_day).days+1):
         d_str = day.isoformat()
-        res = pool.apply_async(daily_page_parse.get_daily_reponum, args=(d_str,))
+        res = pool.apply_async(search_page_parse.get_daily_reponum, args=(d_str,))
         result_list.append([d_str, res])
         day += day.resolution
     pool.close()
