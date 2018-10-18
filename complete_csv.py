@@ -70,12 +70,6 @@ if __name__ == '__main__':
 
 
 
-    # print('The size of miss list is: %d' % len(miss_list))
-    # handle = input('How many miss you want handle?(<%d)' % len(miss_list))
-    # handle_num = int(handle)
-
-
-
 
 
 

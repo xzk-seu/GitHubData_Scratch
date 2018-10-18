@@ -11,8 +11,8 @@ _HEADERS = {'User-Agent': random.choice(_AGENTS)}
 
 proxyHost = "http-dyn.abuyun.com"
 proxyPort = "9020"
-proxyUser = "H5JJ8231M78WW99D"
-proxyPass = "C9E7BCAEFC8D2098"
+proxyUser = "HW2RF1Z9C18A526D"
+proxyPass = "9323ABC212FF1BFA"
 proxyMeta = "http://%(user)s:%(pass)s@%(host)s:%(port)s" % {
     "host": proxyHost,
     "port": proxyPort,

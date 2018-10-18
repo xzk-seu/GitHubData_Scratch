@@ -1,0 +1,11 @@
+{
+    "page": 1,
+    "daily_num": 1,
+    "repo": [
+        {
+            "name": "grit",
+            "owner": "mojombo",
+            "path": "https://github.com/mojombo/grit"
+        }
+    ]
+}

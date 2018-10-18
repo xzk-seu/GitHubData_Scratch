@@ -13,7 +13,7 @@ def get_logger(log_file_name, level=logging.INFO):
         datefmt='%Y-%m-%d %H:%M:%S')
     # 使用FileHandler输出到文件, 文件默认level:ERROR
     fh = logging.FileHandler('%s/%s' % (log_dir_name, log_file_name))
-    fh.setLevel(level)
+    fh.setLevel(level=logging.ERROR)
     fh.setFormatter(formatter)
     # 使用StreamHandler输出到屏幕
     ch = logging.StreamHandler()
