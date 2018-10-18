@@ -53,7 +53,6 @@ def get_repo_info_single_page(search_condition, page):
         repo_owner = repo_titles[0]
         repo_name = repo_titles[1]
 
-        print(repo_name)
         repo_dict = dict(name=repo_name, owner=repo_owner, path=repo_url)
 
         # repo = [repo_name, repo_owner, repo_url, page]
@@ -110,22 +109,24 @@ def get_daily_repo(d_str, res_dict):
     res_dict[d_str] = res_list
 
 
-def test():
+def get_year_repo(y):
     # 处理一年的结果
-    date_list = get_date_list(2012)
+    date_list = get_date_list(y)
     logger.info('there is %s days need crawling' % len(date_list))
-    pool = Pool()
+    pool = Pool(10)
     m = Manager()
     res_d = m.dict()
     for d in date_list:
         pool.apply_async(get_daily_repo, args=(d, res_d))
     pool.close()
     pool.join()
-    result_path = os.path.join(os.getcwd(), 'Result', 'test')
+    result_path = os.path.join(os.getcwd(), 'Result', '%d.json' % y)
     with open(result_path, 'w')as fw:
-        json.dump(res_d, fw, indent=4)
+        res_d = dict(res_d)
+        json.dump(res_d, fw)
 
 
 if __name__ == '__main__':
-    test()
+    for year in range(2008, 2012):
+        get_year_repo(year)
 
